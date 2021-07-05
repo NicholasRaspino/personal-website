@@ -1,0 +1,333 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: "Montserrat-Bold"; */
+  font-family: "Ubuntu";
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  /* color: #fff; */
+  text-align: left;
+}
+
+hr {
+  width: 16.67%;
+  border: 1px solid #008891;
+}
+
+.justified-text {
+  text-align: justify;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #008891;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 2rem;
+
+}
+
+.section-heading-projects {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 2rem 0 0 0;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1rem 8.33%;
+  background-color: #008891;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0rem 1rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-Light";
+}
+
+/* About Me */
+
+.about-me-image {
+  padding: 8.33% 16.67% 0%;
+}
+
+.about-me-subheading {
+  font-family: "Ubuntu";
+  font-size: 1rem;
+}
+
+.about-me-text {
+  padding: 8.33%;
+}
+
+.credly-link {
+  margin-left: 0.5rem;
+  color: #fff;
+}
+
+.credly-link:hover {
+  color: #edeef7;
+  text-decoration: none;
+}
+
+.social-icon {
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.social-icon:hover {
+  color: #edeef7;
+}
+
+/* iOS Apps */
+
+.app-info-text {
+  padding: 0% 8.33%;
+}
+
+.dev-website-link:hover {
+  text-decoration: none;
+}
+
+.image-container {
+  padding: 8.33% 33.33%;
+}
+
+.iphone-image {
+  transform: rotate(25deg);
+}
+
+/* Projects */
+
+.image-container-project {
+  padding: 0% 16.67%;
+}
+
+.project-image {
+
+}
+
+.project-description {
+  padding: 0% 8.33% 16.67%;
+}
+
+.project-text {
+  text-align: justify;
+}
+
+/* Resources */
+
+.resource-container {
+  padding: 0% 8.33% 2rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 2rem;
+}
+
+.icon {
+  color: #008891;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #00587a;
+}
+
+#projects {
+  padding-bottom: 3rem;
+}
+
+/* Footer */
+
+.copyright {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 576px) {
+  .about-me-image {
+    padding: 8.33% 25% 0%;
+  }
+  .about-me-text {
+    padding: 8.33%;
+  }
+  .app-info-text {
+    padding: 0% 8.33%;
+  }
+  .image-container {
+    padding: 8.33% 33.33%;
+  }
+  .image-container-project {
+    padding: 0% 25%;
+  }
+  .project-description {
+    padding: 0% 8.33% 16.67%;
+  }
+  .project-text {
+    text-align: justify;
+  }
+}
+
+/* Resources */
+
+.content-title {
+  text-align: center;
+}
+
+.content-container {
+  padding: 2rem 8.33% 2rem 8.33%;
+  text-align: left;
+}
+
+.padding-right {
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3rem;
+
+  }
+
+  .section-heading-projects {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3rem 0 0 0;
+  }
+  .about-me-image {
+    padding: 8.33%;
+  }
+  .about-me-text {
+    padding: 8.33% 8.33% 8.33% 0%;
+  }
+  .app-info-text {
+    padding: 0% 0% 0% 8.33%;
+  }
+  .image-container {
+    padding: 0% 33.33% 2rem 16.67%;
+  }
+  .image-container-project {
+    padding: 0% 8.33% 0% 8.33%;
+  }
+  .project-description {
+    padding: 1rem 8.33% 8.33% 0%;
+  }
+  .project-text {
+    text-align: justify;
+  }
+  .resource-container {
+    padding: 0% 8.33% 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-heading-projects {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3rem 0 0 0;
+  }
+  .about-me-image {
+    padding: 8.33% 8.33% 8.33% 8.33%;
+  }
+  .about-me-text {
+    padding: 8.33% 8.33% 8.33% 0%;
+  }
+  .app-info-text {
+    padding: 0% 0% 0% 8.33%;
+  }
+  .image-container {
+    padding: 0% 41.67% 2rem 16.67%;
+  }
+  .image-container-project {
+    padding: 0% 8.33% 0% 16.67%;
+  }
+  .project-description {
+    padding: 2rem 8.33% 8.33% 0%;
+  }
+  .project-text {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-heading-projects {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3rem 0 0 0;
+  }
+  .navbar {
+    padding: 1rem 16.67%;
+    background-color: #008891;
+  }
+  .about-me-image {
+    padding: 8.33% 8.33% 8.33% 16.67%;
+  }
+  .about-me-text {
+    padding: 8.33% 16.67% 8.33% 0%;
+  }
+  .app-info-text {
+    padding: 0% 0% 0% 16.67%;
+  }
+  .image-container {
+    padding: 0% 41.67% 2rem 25%;
+  }
+  .image-container-project {
+    padding: 0% 8.33% 0% 25%;
+  }
+  .project-description {
+    padding: 3rem 16.67% 8.33% 0%;
+  }
+  .project-text {
+    text-align: justify;
+  }
+  .resource-container {
+    padding: 0% 16.67% 3rem;
+  }
+  .content-container {
+    padding: 2rem 16.67% 2rem 16.67%;
+    text-align: left;
+  }
+}
