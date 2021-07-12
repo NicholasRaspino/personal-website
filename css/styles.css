@@ -4,7 +4,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* font-family: "Montserrat-Bold"; */
   font-family: "Ubuntu";
 }
 
@@ -13,7 +12,6 @@ h2 {
 }
 
 p {
-  /* color: #fff; */
   text-align: left;
 }
 
@@ -42,7 +40,6 @@ hr {
   line-height: 1.5;
   text-align: center;
   padding: 2rem;
-
 }
 
 .section-heading-projects {
@@ -50,7 +47,6 @@ hr {
   line-height: 1.5;
   text-align: center;
   padding: 2rem 0 0 0;
-
 }
 
 /* Navigation Bar */
@@ -86,8 +82,17 @@ hr {
   font-size: 1rem;
 }
 
+.about-me-social {
+  text-align: left;
+}
+
 .about-me-text {
   padding: 8.33%;
+}
+
+.btn-outline-light:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .credly-link {
@@ -100,8 +105,13 @@ hr {
   text-decoration: none;
 }
 
+.resume-button {
+  margin-left: 1rem;
+  margin-top: -0.25rem;
+}
+
 .social-icon {
-  padding: 1rem;
+  margin-right: 2rem;
   color: #fff;
   font-size: 1.5rem;
   text-align: left;
@@ -135,10 +145,6 @@ hr {
   padding: 0% 16.67%;
 }
 
-.project-image {
-
-}
-
 .project-description {
   padding: 0% 8.33% 16.67%;
 }
@@ -149,8 +155,13 @@ hr {
 
 /* Resources */
 
-.resource-container {
-  padding: 0% 8.33% 2rem;
+.content-title {
+  text-align: center;
+}
+
+.content-container {
+  padding: 2rem 8.33% 2rem 8.33%;
+  text-align: left;
 }
 
 .feature-title {
@@ -170,8 +181,16 @@ hr {
   color: #00587a;
 }
 
-#projects {
+.padding-right {
+  padding-right: 0.5rem;
+}
+
+.project-section {
   padding-bottom: 3rem;
+}
+
+.resource-container {
+  padding: 0% 8.33% 2rem;
 }
 
 /* Footer */
@@ -205,30 +224,13 @@ hr {
   }
 }
 
-/* Resources */
-
-.content-title {
-  text-align: center;
-}
-
-.content-container {
-  padding: 2rem 8.33% 2rem 8.33%;
-  text-align: left;
-}
-
-.padding-right {
-  padding-right: 0.5rem;
-}
-
 @media (min-width: 768px) {
   .section-heading {
     font-size: 3rem;
     line-height: 1.5;
     text-align: center;
     padding: 3rem;
-
   }
-
   .section-heading-projects {
     font-size: 3rem;
     line-height: 1.5;
